@@ -1,6 +1,6 @@
 
 body	{
-	background-image: url(images/background.jpg); /* photography by me, taken in Ricketts Glen */
+	background-image: url("images/background.JPG"); /* photography by me, taken in Ricketts Glen */
 	background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -22,7 +22,7 @@ h1	{
 	
 .roswell	{
 	position: relative;
-	top: -10px;
+	top: 55px;
 }
 
 .icon	{
