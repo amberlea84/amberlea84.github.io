@@ -1,8 +1,7 @@
-
 body	{
 	background-image: url("images/background.JPG"); /* photography by me, taken in Ricketts Glen */
 	background-size: 100%;
-    background-repeat: no-repeat;
+    	background-repeat: no-repeat;
 }
 
 h1	{
@@ -17,7 +16,7 @@ h1	{
 }
 
 .pull-right img:hover {
-    opacity: 1.0;
+	opacity: 1.0;
 	}
 	
 .roswell	{
@@ -31,5 +30,5 @@ h1	{
 }
 
 a:link {
-    text-decoration: none;
+	text-decoration: none;
 }
