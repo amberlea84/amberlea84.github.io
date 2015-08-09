@@ -1,0 +1,115 @@
+body	{
+	background-image: url("images/background.JPG"); /* photography by me, taken in Ricketts Glen, Pa */
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1	{
+	color: #eee;
+}
+
+header a:link, header a:active, header a:visited {
+	text-decoration: none;
+	color: #eee;
+}
+
+header a:hover	{
+	color: black;
+}
+
+.jumbotron 	{
+	background: rgba(238,238,238,0.8);
+}
+
+/*Social Media Icons-----------------------*/
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 10%;
+    -moz-border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -o-border-radius: 10%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-facebook	{
+	background: rgba(64, 96, 165, 0.6);
+}
+
+.social .fa-facebook:hover {
+    background: rgb(64,96,165);
+}
+
+.social .fa-twitter {
+    background: rgba(0, 171, 227, 0.6);
+}
+
+.social .fa-twitter:hover {
+    background: rgb(0, 171, 227);
+}
+
+.social .fa-google-plus {
+    background: #e64522;
+}
+
+.social .fa-google-plus:hover {
+    background: #e64522;
+}
+
+.social .fa-github {
+    background: #343434;
+}
+
+.social .fa-github:hover {
+    background: #343434;
+}
+
+.social .fa-linkedin {
+    background: #0094BC;
+}
+
+.social .fa-linkedin:hover {
+    background: #0094BC;
+}
+
+.social .fa-instagram {
+    background: #375989;
+}
+
+.social .fa-instagram:hover {
+    background: #375989;
+}
