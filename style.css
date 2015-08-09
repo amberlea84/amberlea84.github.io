@@ -35,6 +35,13 @@ hr	{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.icon	{
+	width: 1.2em;
+	height: 1.2em;
+	position: relative;
+	top: -3px;
+}
+
 /*Social Media Icons------------------------------*/
 .social {
     margin: 0;
@@ -94,6 +101,14 @@ hr	{
 
 .social .fa-twitter:hover {
     background: rgb(0, 171, 227);
+}
+
+.social .fa-google-plus {
+    background: rgba(230, 69, 34, 0.6);
+}
+
+.social .fa-google-plus:hover {
+    background: rgb(230, 69, 34);
 }
 
 .social .fa-github {
