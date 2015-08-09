@@ -96,12 +96,6 @@ hr	{
     background: rgb(0, 171, 227);
 }
 
-.social .fa-google-plus {
-    background: rgba(230, 69, 34, 0.6);
-}
-
-.social .fa-google-plus:hover {
-    background: rgb(230, 69, 34);
 }
 
 .social .fa-github {
