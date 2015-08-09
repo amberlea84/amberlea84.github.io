@@ -48,9 +48,15 @@ hr	{
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-	-moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
+	-moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.exampleimg:hover	{
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+	box-shadow: 1px 1px 10px #000;
 }
 
 /*Social Media Icons------------------------------*/
@@ -144,4 +150,14 @@ hr	{
 
 .social .fa-instagram:hover {
     background: rgb(55, 89, 137);
+}
+
+/*Responsive CSS----------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+
+.exampleimg {
+	display:none;
+	}
+
 }
