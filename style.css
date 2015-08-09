@@ -1,6 +1,6 @@
 body	{
 	background-image: url("images/background.JPG"); /* photography by me, taken in Ricketts Glen, Pa */
-	background-size: 100%;
+	background-size: cover;
     background-repeat: no-repeat;
 }
 
