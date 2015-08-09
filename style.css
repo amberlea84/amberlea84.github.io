@@ -40,6 +40,13 @@ hr	{
 	height: 1.2em;
 	position: relative;
 	top: -3px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+}
+
+.icon:hover	{
+	background: #fff;
+	border-radius: 50%;
 }
 
 .exampleimg	{
@@ -54,8 +61,8 @@ hr	{
 }
 
 .exampleimg:hover	{
-	-moz-box-shadow: 1px 1px 5px #999;
-	-webkit-box-shadow: 1px 1px 5px #999;
+	-moz-box-shadow: 1px 1px 10px #000;
+	-webkit-box-shadow: 1px 1px 10px #000;
 	box-shadow: 1px 1px 10px #000;
 }
 
