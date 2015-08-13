@@ -45,7 +45,7 @@ h1	{
 	font-size: 5.7em;
 }
 
-.btn	{
+.btn, a.btn:focus	{
 	font-size: 1.1em;
 	background-color: transparent;
 	color: white;
