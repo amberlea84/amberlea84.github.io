@@ -70,6 +70,15 @@ footer	{
 /*Responsive CSS-------------------------------------------------------------*/
 @media screen and (max-width: 400px) {
 
-body {
-	background: url("http://goo.gl/RfLwZH") no-repeat center center fixed;
+	body {
+		background: url("http://goo.gl/RfLwZH");
+	}
+}
+
+@media screen and (max-width: 768px)	{
+	
+	.navbar-nav>li {
+        float: none;
+        display: inline-block;
+    }
 }
