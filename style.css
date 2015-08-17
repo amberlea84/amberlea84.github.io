@@ -1,7 +1,9 @@
 body	{
-	background-image: url("images/background.JPG"); /* photography by me, taken in Ricketts Glen, Pa */
+	background: url("images/background.JPG") no-repeat center center fixed; /* photography by me, taken in Ricketts Glen, Pa */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h1	{
