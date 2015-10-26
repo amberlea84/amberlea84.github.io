@@ -1,23 +1,28 @@
 body	{
-	background: url("images/background.JPG") no-repeat center center fixed; /* photography by me, taken in Ricketts Glen, Pa */
+	background: url("images/background.jpg") no-repeat center center fixed; /* photography by me, taken in Ricketts Glen, Pa */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
-h1	{
-	color: #eee;
+.container	{
+	max-width: 1000px;
 }
 
+/*Navigation Bar
+------------------------------------------------------------------*/
+
 header a:link, header a:active, header a:visited {
-	text-decoration: none;
 	color: #eee;
 }
 
 header a:hover	{
 	color: black;
 }
+
+/*Main Content
+------------------------------------------------------------------*/
 
 .jumbotron 	{
 	background: rgba(238,238,238,0.8);
@@ -27,8 +32,8 @@ header a:hover	{
 	text-decoration: none;
 }
 
-#note	{
-	font-size: 1em;
+h1	{
+	color: #eee;
 }
 
 hr	{
@@ -36,6 +41,9 @@ hr	{
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+/*Certification and Badges
+------------------------------------------------------------------*/
 
 .icon	{
 	width: 1.2em;
@@ -50,6 +58,9 @@ hr	{
 	background: #fff;
 	border-radius: 50%;
 }
+
+/*Portfolio Previews
+------------------------------------------------------------------*/
 
 .exampleimg	{
 	margin: 15px 0 20px 0;
@@ -68,7 +79,8 @@ hr	{
 	box-shadow: 1px 1px 10px #000;
 }
 
-/*Social Media Icons------------------------------*/
+/*Social Media Icons
+------------------------------------------------------------------*/
 .social {
     margin: 0;
     padding: 0;
@@ -161,7 +173,8 @@ hr	{
     background: rgb(55, 89, 137);
 }
 
-/*Responsive CSS----------------------------------------------------*/
+/*Respensive CSS
+------------------------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
 
