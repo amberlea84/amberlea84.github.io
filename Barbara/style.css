@@ -1,0 +1,83 @@
+body	{
+	background-image: url("images/bg.png");
+}
+
+.blockone	{
+	background-color: white;
+	padding: 25px 10px 5px 10px;
+	border-radius: 5px 5px 0 0;
+}
+
+.blocktwo	{
+	background-color: rgba(147, 62, 58, 0.5);
+	padding: 10px 10px 5px 10px;
+	color: black;
+}
+
+.barbara	{
+	border: 1px solid black;
+	margin: 8px;
+}
+
+.astute	{
+	color: white;
+	font-family: "Tangerine";
+	font-size: 60px;
+}
+
+.sidebar-header	{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.sidebar p	{
+	font-size: 16px;
+	text-align: center;
+}
+
+.naclnc-image	{
+	display: block;
+	margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid black;
+}
+
+#naclnc-note	{
+	font-size: 12px;
+}
+
+.jumbotron	{
+	background-color: white;
+	border: 1px solid black;
+}
+
+.paragraph	{
+	font-size: 1.4em;
+}
+
+footer	{
+	/*border-top: 1px solid rgba(255,255,255, 0.5);*/
+	padding-top: 10px;
+}
+
+footer ul	{
+	list-style-type: none;
+	text-align: center;
+}
+
+footer li	{
+	display:inline;
+	padding: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.center	{
+	text-align: center;
+}
