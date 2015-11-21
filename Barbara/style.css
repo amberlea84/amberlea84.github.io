@@ -1,6 +1,16 @@
 body	{
-	background-image: url("images/bg.png");
+	background-image: url("images/bg1.png");
 }
+
+/*--Navbar
+-----------------------------------------------------------------*/
+
+.navbar.navbar-inverse	{
+	background-color: rgba(24,24,24, 0.7);
+}
+
+/*--Sidebar
+-----------------------------------------------------------------*/
 
 .blockone	{
 	background-color: white;
@@ -9,20 +19,9 @@ body	{
 }
 
 .blocktwo	{
-	background-color: rgba(147, 62, 58, 0.5);
+	background-color: rgba(129, 54, 62, 0.5);
 	padding: 10px 10px 5px 10px;
 	color: black;
-}
-
-.barbara	{
-	border: 1px solid black;
-	margin: 8px;
-}
-
-.astute	{
-	color: white;
-	font-family: "Tangerine";
-	font-size: 60px;
 }
 
 .sidebar-header	{
@@ -47,18 +46,47 @@ body	{
 	font-size: 12px;
 }
 
+/*--Content
+-----------------------------------------------------------------*/
+
 .jumbotron	{
 	background-color: white;
 	border: 1px solid black;
+}
+
+.astute	{
+	color: white;
+	font-family: "Tangerine";
+	font-size: 60px;
+}
+
+.barbara	{
+	border: 1px solid black;
+	margin: 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.center	{
+	text-align: center;
 }
 
 .paragraph	{
 	font-size: 1.4em;
 }
 
+/*--Footer
+-----------------------------------------------------------------*/
+
 footer	{
-	/*border-top: 1px solid rgba(255,255,255, 0.5);*/
+	background-color: rgba(24,24,24, 0.5);
 	padding-top: 10px;
+	border-radius: 5px 5px 0 0;
 }
 
 footer ul	{
@@ -71,13 +99,6 @@ footer li	{
 	padding: 5px;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
-.center	{
-	text-align: center;
+footer li a {
+    color: #9d9d9d;
 }
