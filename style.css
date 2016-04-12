@@ -44,6 +44,11 @@ hr	{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+img.pull-right	{
+	opacity: 0.9;
+	max-width: 300px;
+}
+
 /*Certification and Badges
 ------------------------------------------------------------------*/
 
@@ -184,5 +189,9 @@ hr	{
 .exampleimg {
 	display:none;
 	}
+	
+img.pull-right	{
+	display: none;
+}
 
 }
