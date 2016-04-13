@@ -2,6 +2,14 @@ body, html {
     height: 100%;
 }
 
+img	{
+	width: 80%;
+	padding: 5px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 /* Carousel
 ---------------------------------------------------- */
 
@@ -14,6 +22,44 @@ body, html {
 .mycarousel {
     position: absolute;
     top: 0;    
+}
+
+.carousel-inner > .item {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: 0;
+  -webkit-transition: none;
+       -o-transition: none;
+          transition: none;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+          transform: translate3d(0, 0, 0) !important;
+}
+.carousel-inner > .item:first-of-type {
+  position: relative;
+}
+.carousel-inner > .active {
+  opacity: 1;
+  z-index: 3;
+}
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {
+  -webkit-transition: opacity 0.6s ease-in-out;
+       -o-transition: opacity 0.6s ease-in-out;
+          transition: opacity 0.6s ease-in-out;
+  opacity: 1;
+  left: 0;
+  z-index: 2;
+}
+.carousel-inner > .active.left,
+.carousel-inner > .active.right {
+  z-index: 1;
+}
+.carousel-control {
+  z-index: 4;
 }
 
 /* Navigation Bar
@@ -65,17 +111,17 @@ body, html {
 }
 
 .point-top {
-  border-bottom: 20px solid rgba(0,0,0, 0.7);
+  border-bottom: 20px solid rgba(119,136,153, 0.8);
   border-top: 0; 
 }
 
 .point-bottom {
-  border-top: 20px solid rgba(0,0,0, 0.7);
+  border-top: 20px solid rgba(119,136,153, 0.8);
   border-bottom: 0;
 }
 
 .menu {
-  background-color: rgba(0,0,0, 0.7);
+  background-color: rgba(119,136,153, 0.8);
   width: 300px;
   padding-bottom: 1em;
   height:90vh;
@@ -93,11 +139,13 @@ body, html {
   margin-bottom: .5em;
 }
 
+/*
 .menu p:first-of-type { 
-font-size: 1.8em;
-  padding-top: 1em;
-  text-decoration: underline;
+	font-size: 1.8em;
+	padding-top: 1em;
+	text-decoration: underline;
 }
+*/
 
 .menu a:hover {
   text-decoration: underline;
