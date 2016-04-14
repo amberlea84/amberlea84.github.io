@@ -4,7 +4,7 @@ body, html {
 
 img	{
 	width: 80%;
-	padding: 5px;
+	padding: 30px 5px 5px 5px;
 	display: block;
 	margin-left: auto;
     margin-right: auto;
@@ -129,8 +129,6 @@ img	{
 
 .menu p, .menu a {
   display: block;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 100;
   font-size: 1.5em;
   color: white;
   text-align: center;
