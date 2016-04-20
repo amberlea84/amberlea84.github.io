@@ -19,8 +19,7 @@ body, html {
 	z-index: 10;
 	top: 100px;
 	width: 100%;
-	margin: 10px 0;
-	padding: 10px 50px;
+	padding: 0 50px;
 	background-color: rgba(119,136,153, 0.9);
 }
 
@@ -180,22 +179,7 @@ hr.flare {
 ---------------------------------------------------- */
 
 .lightbox	{
-	position: absolute;
-	z-index: 10;
 	top: 100px;
-	min-width: 70%;
-	margin: 10px auto;
-	padding: 10px 0 20px 0;
-	background-color: rgba(119,136,153, 0.5);
-}
-
-.lightbox img	{
-	margin: 2px;
-}
-
-.thumb	{
-	max-height: 180px;
-	max-width: 100%;
 }
 
 /* responsive css
