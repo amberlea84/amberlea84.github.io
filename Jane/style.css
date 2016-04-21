@@ -11,6 +11,11 @@ body, html {
 	border: 4px solid #e5e5e5;
 }
 
+.contactlamp	{
+	border: 4px solid white;
+	border-radius: 4px;
+}
+
 /* Content section
 ---------------------------------------------------- */
 
