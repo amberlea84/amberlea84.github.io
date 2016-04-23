@@ -354,6 +354,10 @@ footer p	{
     padding: 0px;
 }
 
+.social ul li {
+	margin: 1px;
+}
+
 }
 
 @media screen and (max-width: 400px)	{
