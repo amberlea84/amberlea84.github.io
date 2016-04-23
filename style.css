@@ -338,15 +338,22 @@ footer p	{
 @media screen and (max-width: 600px) {
 
 .nav>li>a	{
+	padding: 5px 10px;
 	margin: 1px;
-}
-
-ul.nav.nav-pills.pull-right	{
-	padding: 1px;
 }
 
 .me	{
 	max-width: 50%;
 }
 
+}
+
+@media screen and (max-width: 400px)	{
+.me	{
+	display:none;
+}
+
+.portfolioimg	{
+	display: none;
+}
 }
