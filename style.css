@@ -337,8 +337,20 @@ footer p	{
 
 @media screen and (max-width: 600px) {
 
-.exampleimg {
-	display:none;
-	}
+.logo	{
+	max-width: 100%;
+}
+
+.nav>li>a	{
+	margin: 1px;
+}
+
+ul.nav.nav-pills.pull-right	{
+	padding: 1px;
+}
+
+.me	{
+	max-width: 50%;
+}
 
 }
