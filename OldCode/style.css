@@ -1,106 +1,56 @@
 body	{
-	background: #B2AC96 url("images/background.jpg") top left repeat fixed;
-	height: 100%;
+	background: url("images/background.jpg") no-repeat center center fixed; /* photography by me, taken in Ricketts Glen, Pa */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .container	{
 	max-width: 1000px;
 }
 
-/*Images
-------------------------------------------------------------------*/
-
-.logo	{
-	padding: 20px;
-}
-
-.me	{
-	opacity: 0.9;
-	border: 1px solid black;
-	margin: 2px;
-}
-
 /*Navigation Bar
 ------------------------------------------------------------------*/
 
 header a:link, header a:active, header a:visited {
-	font-family: 'Chivo', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	color: #eee;
-	border: 1px solid black;
-	border-radius: 0;
 }
 
 header a:hover	{
 	color: black;
 }
 
-.page-header	{
-	border: none;
-}
-
-/*Jumbotron
+/*Main Content
 ------------------------------------------------------------------*/
 
-div.jumbotron.clearfix 	{
-	position: relative;
-	top: 10px;
-	background: rgba(238, 238, 238, 0.9);
-	border: 1px solid black;
-	border-radius: 0;
-	clear: both;
-}
-
-.jumbotron p 	{
-	font-family: 'Chivo', sans-serif;
-	font-size: 1.7em;
+.jumbotron 	{
+	background: rgba(238,238,238,0.8);
 }
 
 .jumbotron a{
 	text-decoration: none;
 }
 
-.jumbotron h2	{
-	text-align: center;
-	font-family: 'Architects Daughter', cursive;
+h1	{
+	color: #eee;
+	font-size: 2.8em;
 }
 
-.jumbotron h3	{
-	text-align: center;
-	text-decoration: underline;
-	font-family: 'Chivo', sans-serif;
+hr	{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.jumbotron hr	{
-    border-top: medium double #333;
-}
-
-/*Footer
-------------------------------------------------------------------*/
-
-footer	{
-	color: white;
-	background-color: rgba(0, 0, 0, 0.7);
-	border: 1px solid black;
-    width: 100%;
-	padding: 10px;
-}
-
-footer p	{
-	font-size: 1.2em;
-	font-family: 'Architects Daughter', cursive;
+img.pull-right	{
+	opacity: 0.9;
+	max-width: 300px;
 }
 
 /*Certification and Badges
 ------------------------------------------------------------------*/
-
-.cert-link	{
-	text-align: center;
-}
-
-.cert-link a {
-	font-size: 1.4em;
-}
 
 .icon	{
 	width: 1.2em;
@@ -121,6 +71,7 @@ footer p	{
 
 .exampleimg	{
 	margin: 15px 0 20px 0;
+	border-radius: 35px;
 	display: block;
 	margin-left: auto;
     margin-right: auto;
@@ -152,7 +103,6 @@ footer p	{
     margin: 5px;
     list-style: none outside none;
     display: inline-block;
-	border: 1px solid black;
 }
 
 .social i {
@@ -239,5 +189,9 @@ footer p	{
 .exampleimg {
 	display:none;
 	}
+	
+img.pull-right	{
+	display: none;
+}
 
 }
