@@ -47,6 +47,7 @@ body, html {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .mycarousel {
@@ -185,6 +186,27 @@ hr.flare {
 
 .lightbox	{
 	top: 100px;
+}
+
+/* gallery
+---------------------------------------------------- */
+
+.eachlamp {
+	max-width: 800px;
+	margin: auto;
+	padding-top: 100px;
+	line-height: 1;
+}
+
+.eachlamp p	{
+	text-align: left;
+	font-size: 1.3em;
+}
+
+.lampgif	{
+	width: 200px;
+	height: auto;
+	margin-right: 10px;
 }
 
 /* responsive css
