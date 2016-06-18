@@ -1,15 +1,19 @@
 body, html {
     height: 100%;
-	background-color: #c5ccd3;
+}
+
+.logo	{
+	width: 80%;
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	border: 4px solid #e5e5e5;
 }
 
 .contactlamp	{
 	border: 4px solid white;
 	border-radius: 4px;
-}
-
-a:hover	{
-	text-decoration: none;
 }
 
 /* Content section
@@ -21,7 +25,7 @@ a:hover	{
 	top: 100px;
 	width: 100%;
 	padding: 0 50px 20px 50px;
-	background-color: rgba(119,136,153, 0.6);
+	background-color: rgba(119,136,153, 0.9);
 }
 
 .content img	{
@@ -33,13 +37,7 @@ a:hover	{
 }
 
 .content p	{
-	font-size: 1.6em;
-}
-
-.thin	{
-	max-width: 900px;
-	margin: auto;
-	line-height: 1;
+	font-size: 1.2em;
 }
 
 /* Carousel
@@ -160,25 +158,21 @@ a:hover	{
   padding-top: 10px;
   padding-bottom: 1em;
   height:90vh;
-  text-align: center;
-  color: white;
 }
 
-.menu h1, .menu h3	{
-	font-family: Amaranth;
-}
-
-.menu h1	{
-	font-size: 4em;
-}
-
-.side {
+.menu p, .menu a {
   display: block;
   font-family: 'Kameron', sans-serif;
   font-size: 1.4em;
+  color: white;
+  text-align: center;
   text-decoration: none;
   padding: 8px;
   margin-bottom: .5em;
+}
+
+.menu a:hover {
+  text-decoration: underline;
 }
 
 hr.flare {
@@ -200,11 +194,8 @@ hr.flare {
 .eachlamp {
 	max-width: 800px;
 	margin: auto;
+	padding-top: 100px;
 	line-height: 1;
-}
-
-.eachlamp:last-child {
-	padding-bottom: 30px;
 }
 
 .eachlamp p	{
@@ -212,91 +203,10 @@ hr.flare {
 	font-size: 1.3em;
 }
 
-.eachlamp h3	{
-	text-align: center;
-	padding-bottom: 5px;
-}
-
 .lampgif	{
 	width: 200px;
 	height: auto;
 	margin-right: 10px;
-}
-
-/* about
----------------------------------------------------- */
-
-.biopic	{
-	height: 300px;
-	width: auto;
-}
-
-.intro	{
-	font-style: italic;
-	font-size: 1.3em !important;
-	color: #ccc;
-}
-
-/*Social Media Icons
-------------------------------------------------------------------*/
-.social {
-    margin: 0;
-    padding: 0;
-}
-
-.social ul {
-    margin: 0;
-    padding: 5px;
-}
-
-.social ul li {
-    margin: 5px;
-    list-style: none outside none;
-    display: inline-block;
-}
-
-.social i {
-    width: 40px;
-    height: 40px;
-    color: #FFF;
-    font-size: 24px;
-    text-align:center;
-    padding-top: 12px;
-    border-radius: 10%;
-    -moz-border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -o-border-radius: 10%;
-    transition: all ease 0.2s;
-    -moz-transition: all ease 0.2s;
-    -webkit-transition: all ease 0.2s;
-    -o-transition: all ease 0.2s;
-    -ms-transition: all ease 0.2s;
-}
-
-.social i:hover {
-    color: #FFF;
-    text-decoration: none;
-    transition: all ease 0.2s;
-    -moz-transition: all ease 0.2s;
-    -webkit-transition: all ease 0.2s;
-    -o-transition: all ease 0.2s;
-    -ms-transition: all ease 0.2s;
-}
-
-.social .fa-facebook	{
-	background: rgba(64, 96, 165, 0.6);
-}
-
-.social .fa-facebook:hover {
-    background: rgb(64,96,165);
-}
-
-.social .fa-instagram {
-    background: rgba(55, 89, 137, 0.6);
-}
-
-.social .fa-instagram:hover {
-    background: rgb(55, 89, 137);
 }
 
 /* responsive css
