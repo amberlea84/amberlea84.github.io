@@ -1,6 +1,13 @@
+/* Color reference
+----------------------------------------------------
+
+Soft olive green: #bacb97, #c1d1a3
+
+*/
+
+
 body, html {
-    height: 100%;
-	background-color: #c5ccd3;
+	background-color: rgba(160, 184, 113, 0.5);
 }
 
 .contactlamp	{
@@ -21,7 +28,7 @@ a:hover	{
 	top: 100px;
 	width: 100%;
 	padding: 0 50px 20px 50px;
-	background-color: rgba(119,136,153, 0.6);
+	background-color: #c1d1a3;
 }
 
 .content img	{
@@ -36,10 +43,8 @@ a:hover	{
 	font-size: 1.4em;
 }
 
-.thin	{
-	max-width: 900px;
-	margin: auto;
-	line-height: 1;
+.row:nth-of-type(even)	{
+	background-color: #8B9871;
 }
 
 /* Carousel
@@ -145,17 +150,17 @@ a:hover	{
 }
 
 .point-top {
-  border-bottom: 20px solid rgba(119,136,153, 0.8);
+  border-bottom: 20px solid rgba(139, 152, 113, 0.6);
   border-top: 0; 
 }
 
 .point-bottom {
-  border-top: 20px solid rgba(119,136,153, 0.8);
+  border-top: 20px solid rgba(139, 152, 113, 0.6);
   border-bottom: 0;
 }
 
 .menu {
-  background-color: rgba(119,136,153, 0.8);
+  background-color: rgba(139, 152, 113, 0.6);
   width: 300px;
   padding-top: 10px;
   padding-bottom: 1em;
@@ -234,7 +239,7 @@ hr.flare {
 .intro	{
 	font-style: italic;
 	font-size: 1.3em !important;
-	color: #ccc;
+	color: #4B4B4B;
 }
 
 /*Social Media Icons
