@@ -19,6 +19,10 @@ a:hover	{
 	text-decoration: none;
 }
 
+h1	{
+	font-family: 'Aref Ruqaa', sans-serif;
+}
+
 /* Content section
 ---------------------------------------------------- */
 
@@ -44,7 +48,7 @@ a:hover	{
 }
 
 .row:nth-of-type(even)	{
-	background-color: #8B9871;
+	background-color: rgba(139,152,113, 0.5);
 }
 
 /* Carousel
@@ -169,7 +173,7 @@ a:hover	{
   color: white;
 }
 
-.menu h1, .menu h3	{
+.menu h3	{
 	font-family: Amaranth;
 }
 
