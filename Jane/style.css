@@ -3,11 +3,19 @@
 
 Soft olive green: #bacb97, #c1d1a3
 
+olive: #c9c783
+
 */
 
 
 body, html {
-	background-color: rgba(160, 184, 113, 0.5);
+	/*background-color: rgba(160, 184, 113, 0.5);*/
+	height: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: -webkit-linear-gradient(90deg, rgba(247,255,227, 0.1) 10%, rgba(210, 220, 189, 0.7) 90%); /* Chrome 10+, Saf5.1+ */
+	background-image: -moz-linear-gradient(90deg, rgba(247,255,227, 0.1) 10%, rgba(210, 220, 189, 0.7) 90%); /* FF3.6+ */
+	background-image: linear-gradient(90deg, rgba(247,255,227, 0.1) 10%, rgba(210, 220, 189, 0.7) 90%); /* W3C */
 }
 
 .contactlamp	{
@@ -32,7 +40,7 @@ h1	{
 	top: 100px;
 	width: 100%;
 	padding: 0 50px 20px 50px;
-	background-color: #c1d1a3;
+	background-color: rgba(210, 220, 189, 0.6);
 }
 
 .content img	{
@@ -47,8 +55,21 @@ h1	{
 	font-size: 1.4em;
 }
 
+.content a	{
+	color: #334466;
+	transition: all 0.3s ease-in;
+}
+
+.content a:hover	{
+	color: white;
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 20px black;
+}
+
 .row:nth-of-type(even)	{
-	background-color: rgba(139,152,113, 0.5);
+	background-color: rgba(139,152,113, 0.3);
 }
 
 /* Carousel
@@ -230,6 +251,10 @@ hr.flare {
 	width: 200px;
 	height: auto;
 	margin-right: 10px;
+}
+
+p.aspects	{
+	font-size: 1.5em;
 }
 
 /* about
