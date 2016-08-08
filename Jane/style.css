@@ -31,6 +31,11 @@ h1	{
 	font-family: 'Aref Ruqaa', sans-serif;
 }
 
+h2	{
+	font-family: 'Italianno', cursive;
+	font-size: 45px;
+}
+
 /* Content section
 ---------------------------------------------------- */
 
@@ -199,7 +204,8 @@ h1	{
 }
 
 .menu h1	{
-	font-size: 4em;
+	font-family: 'Italianno', cursive;
+	font-size: 70px;
 }
 
 .side {
@@ -248,7 +254,7 @@ hr.flare {
 }
 
 .lampgif	{
-	width: 200px;
+	width: 250px;
 	height: auto;
 	margin-right: 10px;
 }
