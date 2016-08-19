@@ -205,13 +205,13 @@ h2	{
 
 .menu h1	{
 	font-family: 'Italianno', cursive;
-	font-size: 70px;
+	font-size: 90px;
 }
 
 .side {
   display: block;
   font-family: 'Kameron', sans-serif;
-  font-size: 1.4em;
+  font-size: 30px;
   text-decoration: none;
   padding: 8px;
   margin-bottom: .5em;
