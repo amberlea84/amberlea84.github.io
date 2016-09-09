@@ -33,7 +33,6 @@ h2	{
 }
 
 .outline {
-    color: #f9f;
     text-shadow: #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
 }
@@ -360,6 +359,10 @@ p.aspects	{
 		margin-top: 0px;
 	}
 	
+	.navbar li	{
+		padding: 1px 5px 1px 1px;
+	}
+	
 	.point-top,
 	.point-bottom {
 		display: none;
@@ -373,7 +376,7 @@ p.aspects	{
 	}
 
 	.menu h1	{
-		font-size: 50px;
+		font-size: 55px;
 		text-shadow: #000 0px 0px 1px;
 		-webkit-font-smoothing: antialiased;
 	}
@@ -387,5 +390,8 @@ p.aspects	{
 	.side	{
 		font-size: 15px;
 	}
+	
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent;
 
 	}
