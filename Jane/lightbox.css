@@ -25,7 +25,7 @@ body:after {
   text-align: center;
   line-height: 0;
   font-weight: normal;
-  background-color: rgba(210, 220, 189, 0.5);
+  background-color: rgba(210, 220, 189, 0.4);
 }
 
 .lightbox .lb-image {
@@ -68,6 +68,10 @@ body:after {
 
 .lb-container {
   padding: 4px;
+}
+
+div.lb-dataContainer	{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* lightbox icons
@@ -173,6 +177,8 @@ body:after {
 .lb-data {
   padding: 0 4px;
   color: #ccc;
+  text-shadow: #000 0px 0px 2px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .lb-data .lb-details {
