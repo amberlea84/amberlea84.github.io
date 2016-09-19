@@ -1,15 +1,4 @@
-/* Color reference
-----------------------------------------------------
-
-Soft olive green: #bacb97, #c1d1a3
-
-olive: #c9c783
-
-*/
-
-
 body, html {
-	/*background-color: rgba(160, 184, 113, 0.5);*/
 	height: 100%;
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,8 +21,12 @@ h2	{
 	font-size: 45px;
 }
 
+h3	{
+	font-size: 30px;
+}
+
 .outline {
-    text-shadow: #000 0px 0px 1px;
+    text-shadow: #000 0px 0px 3px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -261,6 +254,10 @@ hr.flare {
 }
 
 p.aspects	{
+	font-size: 1.7em;
+}
+
+p.description	{
 	font-size: 1.5em;
 }
 
