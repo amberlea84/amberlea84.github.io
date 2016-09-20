@@ -39,7 +39,7 @@ h3	{
 	top: 100px;
 	width: 100%;
 	padding: 0 50px 20px 50px;
-	background-color: rgba(210, 220, 189, 0.6);
+	background-color: rgba(210, 220, 189, 0.8);
 }
 
 .content img	{
@@ -59,7 +59,7 @@ h3	{
 	transition: all 0.3s ease-in;
 }
 
-.content a:hover	{
+.content a:hover, h3:hover	{
 	color: white;
 	-webkit-stroke-width: 5.3px;
     -webkit-stroke-color: #FFFFFF;
@@ -241,17 +241,24 @@ hr.flare {
 .eachlamp p	{
 	text-align: left;
 	font-size: 1.3em;
+	margin-left: 285px;
 }
 
 .eachlamp h3	{
 	text-align: center;
 	padding-bottom: 5px;
+	color: white;
+	font-size: 38px;
 }
 
 .lampgif	{
 	width: 250px;
 	height: auto;
 	margin-right: 10px;
+}
+
+.lampgif:hover{
+	box-shadow: 0 1px 8px #ccc;
 }
 
 p.aspects	{
@@ -262,7 +269,7 @@ p.description	{
 	font-size: 1.5em;
 }
 
-.back	{
+.back, .forward	{
 	margin-top: 20px;
 	font-family: 'Italianno', cursive;
 	font-size: 30px;
