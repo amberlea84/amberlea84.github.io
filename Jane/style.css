@@ -400,3 +400,9 @@ p.description	{
 		background-color: transparent;
 
 	}
+	
+	.eachlamp p	{
+	margin-left: 5px;
+	}
+	
+}
