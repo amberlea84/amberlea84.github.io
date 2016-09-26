@@ -9,9 +9,9 @@ body:after {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
-  opacity: 0.9;
+  background-color: rgb(255, 255, 255);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=99);
+  opacity: 0.99;
   display: none;
 }
 
@@ -23,7 +23,7 @@ body:after {
   text-align: center;
   line-height: 0;
   font-weight: normal;
-  background-color: rgba(210, 220, 189, 0.6);
+  background-color: rgba(114, 114, 38, 0.4);
 }
 
 .lightbox .lb-image {
