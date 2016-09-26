@@ -28,6 +28,10 @@ h3	{
 	font-size: 30px;
 }
 
+a:link, a:hover, a:visited, a:active { 
+    text-decoration: none !important;
+}
+
 .outline {
     text-shadow: #000 0px 0px 3px;
     -webkit-font-smoothing: antialiased;
