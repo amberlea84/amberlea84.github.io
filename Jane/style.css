@@ -204,7 +204,7 @@ h3	{
 
 .menu h1	{
 	font-family: 'Italianno', cursive;
-	font-size: 80px;
+	font-size: 75px;
 }
 
 .side {
@@ -276,6 +276,18 @@ p.description	{
 	margin-top: 20px;
 	font-family: 'Italianno', cursive;
 	font-size: 30px;
+}
+
+.back a	{
+	color: #334466;
+}
+
+.back a:hover	{
+	color: white;
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 20px black;
 }
 
 /* about
